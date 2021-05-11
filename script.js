@@ -13,9 +13,9 @@ function findOut () {
   // Program determines if user is eligible for student pricing
   if ((day === 'Monday' || day === 'Tuesday' || day === 'Wendnesday' || day === 'Thursday' || day === 'Friday') && (age < 18)) {
     document.getElementById('text').innerHTML = 'Time for School!'
-  } else if (( day !== 'Saturday' && day !== 'Sunday') && (age >= 18)) {
+  } else if ((day !== 'Saturday' && day !== 'Sunday') && (age >= 18)) {
     document.getElementById('text').innerHTML = 'Time to go to work!'
   } else {
-      document.getElementById('text').innerHTML = 'Time to relax for the weekend!'
+    document.getElementById('text').innerHTML = 'Time to relax for the weekend!'
   }
 }
