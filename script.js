@@ -10,7 +10,7 @@ function findOut () {
   age = document.getElementById('age').value
   age = parseInt(age)
   day = document.getElementById('day').value
-  // Program determines if user is eligible for student pricing
+  // Program determines what the user should do
   if ((day === 'Monday' || day === 'Tuesday' || day === 'Wendnesday' || day === 'Thursday' || day === 'Friday') && (age < 18)) {
     document.getElementById('text').innerHTML = 'Time for School!'
   } else if ((day !== 'Saturday' && day !== 'Sunday') && (age >= 18)) {
