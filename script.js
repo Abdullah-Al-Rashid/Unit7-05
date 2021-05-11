@@ -11,7 +11,7 @@ function findOut () {
   age = parseInt(age)
   day = document.getElementById('day').value
   // Program determines what the user should do
-  if ((day === 'Monday' || day === 'Tuesday' || day === 'Wendnesday' || day === 'Thursday' || day === 'Friday') && (age < 18)) {
+  if ((day === 'Monday' || day === 'Tuesday' || day === 'Wednesday'|| day === 'Thursday' || day === 'Friday') && (age < 18)) {
     document.getElementById('text').innerHTML = 'Time for School!'
   } else if ((day !== 'Saturday' && day !== 'Sunday') && (age >= 18)) {
     document.getElementById('text').innerHTML = 'Time to go to work!'
